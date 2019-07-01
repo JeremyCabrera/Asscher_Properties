@@ -1,6 +1,7 @@
 
 #title {
   background-color: #ff8533;
+  font-family: "Ubuntu";
 }
 
 #features {
@@ -8,10 +9,39 @@
   padding-top: 20px;
 }
 
+#footer, #cta {
+  background-color: #ff8533;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+#pricing, #cta {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  text-align: center;
+}
+
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
 .col-lg-6 {
   padding-top: 20px;
 }
 
-#footer, #cta {
-  background-color: #ff8533;
+.img-circle {
+  border-radius: 50%;
 }
