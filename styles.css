@@ -5,7 +5,7 @@
 }
 
 #features {
-  background-color: #ff8533;
+  background-color: #FFFFFF;
   padding-top: 20px;
 }
 
@@ -13,14 +13,12 @@
   background-color: #ff8533;
 }
 
-#testimonials {
-  text-align: center;
-}
 
 #pricing, #cta {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
+
 }
 
 #footer {
@@ -31,6 +29,10 @@
   padding: 8% 14%;
 }
 
+#testimonial-carousel {
+  padding-top: 2rem;
+
+}
 .feature-box {
   text-align: center;
   padding: 5%;
@@ -44,8 +46,10 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat-bold";
+  font-family: "Ubuntu";
   margin-top: 15px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 body {
@@ -87,9 +91,32 @@ body {
   transform: rotate(5deg);
 }
 
-.img-circle {
-  border-radius: 50%;
+.testimonials-img {
+  height:300px;
+  width: 300px;
+  border-radius: 100%;
+  text-align: center;
+
 }
 
 .download-button {
   margin: 5% 3% 5% 0;
+
+}
+
+.icon {
+  color: #ff8533;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000000;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align:center;
+  background-color: #ff8533;
+  padding-bottom: 3rem;
+}
