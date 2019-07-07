@@ -1,3 +1,10 @@
+/* Media Query Breakpoint*/
+@media (max-width: 1028px) {
+  #title, #cta {
+    text-align: center;
+  }
+}
+
 /* Title */
 .col-lg-6 {
   padding-top: 20px;
@@ -8,7 +15,6 @@
 }
 
 #title {
-  background-color: #ff8533;
   font-family: "Ubuntu";
 }
 
@@ -27,7 +33,7 @@
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-light";
+  font-family: "Ubuntu";
 }
 
 /* Features */
@@ -39,10 +45,6 @@
 .feature-box {
   text-align: center;
   padding: 5%;
-}
-
-#footer, #cta {
-  background-color: #ff8533;
 }
 
 /* Pricing */
@@ -64,6 +66,10 @@ h2 {
   padding-bottom: 1rem;
 }
 
+h2.testimonial-title {
+  color: #FFF;
+}
+
 h3 {
   font-family: "Ubuntu";
   margin-top: 15px;
@@ -82,6 +88,11 @@ body {
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff8533;
 }
 
 .icon {
