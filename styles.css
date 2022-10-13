@@ -7,7 +7,8 @@
 
 /* Title */
 .col-lg-6 {
-  padding-top: 20px;
+  padding-top: 10px;
+  
 }
 
 .title-image {
@@ -24,7 +25,7 @@
 }
 
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .nav-item {
@@ -92,11 +93,12 @@ body {
 
 /* Sections */
 .colored-section {
-  background-color: #ff8533;
+  background-color: #0790f894;
+  text-align: center;
 }
 
 .icon {
-  color: #ff8533;
+  color: #0790f894;
   margin-bottom: 1rem;
 }
 
@@ -107,7 +109,7 @@ body {
 /* Testimonials Section */
 #testimonials {
   text-align: center;
-  background-color: #ff8533;
+  background-color: #0790f894;
   padding-bottom: 3rem;
 }
 
@@ -127,5 +129,6 @@ body {
 }
 
 #footer {
+  padding-top: 1rem;
   text-align: center;
 }
